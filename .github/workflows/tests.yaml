@@ -2,7 +2,7 @@ name: Go tests
 on:
   push:
   pull_request:
-  workflow_disptach:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
